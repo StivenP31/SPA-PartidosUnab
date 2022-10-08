@@ -6,7 +6,7 @@ const CrearPartidoFormulario = () => {
         <div class="row">
             <div class="col col-md-12 col-lg-12">
                 <label for="fecha" class="form-label">Fecha</label>
-                <input type="date" class="form-control" id="fecha" name="fecha" required> 
+                <input type="date" class="form-control" id="fecha" name=" " required> 
             </div>
         </div>
         
