@@ -14,12 +14,7 @@ const PartidosCreados = async () => {
                 <h3 class="text-center">Partidos Creados</h3>
 
                 
-                ${ 
-                  partidos.map(  
-                    partido=>partidoCard(partido, true)
-                    
-                    
-                    ) 
+                ${partidos.map(partido=>partidoCard(partido, true)).join('') 
                 }
                   <div class="mt-3 ">
                     <div class="text-center">

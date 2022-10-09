@@ -1,5 +1,5 @@
 // const API = "https://rickandmortyapi.com/api/character";
-const API = "https://6cdec907-6cca-4d10-ae50-2f4c25df772a.mock.pstmn.io"
+const API = "https://9adb4332-1673-4048-98b6-13ea6be9ba86.mock.pstmn.io"
 
 export default async (id) => {
   const apiUrl = id ? `${API}${id}` : API;

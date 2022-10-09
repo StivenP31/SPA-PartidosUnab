@@ -6,8 +6,7 @@ const Error404 =()=>{
         <div class="col col-sm-12 col-md-8 col-lg-6">
             <div class="d-flex align-items-center justify-content-center vh-50 ">
             
-                <h1 class="display-1 fw-bold text-black"></h1>
-                <figure>
+                <h1 class="display-1 fw-bold text-black"><figure>
                     <img id="error404" src="../assets/img/error404.png.png" alt="error 404">
 
                 </figure>
