@@ -4,7 +4,7 @@ const Nav = () => {
         <div class="container-fluid">
           <a class="navbar-brand" href="/" >
             <figure>
-                <img id="logo" src="../assets/img/android-chrome-512x512.png" alt="Logo Vive tu exp">
+                <img id="logo" src="../assets/img/android-chrome-512x512.png" alt="Logo">
             </figure>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
