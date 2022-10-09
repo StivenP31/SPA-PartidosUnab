@@ -29,7 +29,7 @@ const App = async () => {
   footer.innerHTML = await Footer();
 
   let ruta = await resolverRutas(getHash());
-  let pagina = Rutas[ruta] ? Rutas[ruta] : Error404;
+  let pagina = Rutas[ruta] ? Rutas[ruta] : Error404();
 
   main.innerHTML = await pagina();
 };
